@@ -29,8 +29,6 @@ class MySider extends React.Component {
     });
   };
 
-
-
   componentDidMount() {
     if (this.props.location.pathname === '/') {
       this.props.history.push('/page1')
